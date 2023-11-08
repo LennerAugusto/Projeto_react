@@ -16,8 +16,10 @@ import AlunoLista from './pages/aluno/Lista';
 import AlunoIncluir from './pages/aluno/Incluir';
 import AlunoExcluir from './pages/aluno/Excluir';
 //Avaliação
-import AvaliacaoLista from './pages/avaliacao/Lista'
-
+import AvaliacaoLista from './pages/avaliacao/Lista';
+//Disciplina 
+import DisciplinaLista from './pages/disciplina/Lista';
+import DisciplinaIncluir from './pages/disciplina/Incluir'
 import Rotas from './rotas/Rotas';
 
 
@@ -42,7 +44,8 @@ function App() {
               <Route path="/aluno/excluir" element={<AlunoExcluir/>} />
               <Route path="/aluno/incluir" element={<AlunoIncluir/>} />
               <Route path="/avaliacao/lista" element={<AvaliacaoLista/>} />
-              <Route path="/avaliacao/lista" element={<AvaliacaoLista />} />
+              <Route path="/disciplina/lista" element={<DisciplinaLista/>} />
+              <Route path="/disciplina/inlcuir" element={<DisciplinaIncluir/>} />
             </Route>
           </>
         </Routes>
