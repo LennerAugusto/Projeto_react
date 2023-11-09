@@ -3,6 +3,7 @@ import Content from '../content/Content'
 import Header from '../header/Header'
 import SideBar from '../sidebar/SideBar'
 
+
 const Layout = ({ children }) => {
 
   const [toggle, setToggle] = useState(true);
@@ -19,6 +20,7 @@ const Layout = ({ children }) => {
         <Content sideBar={toggle}>
             { children } 
         </Content>
+
     </Fragment>
   )
   

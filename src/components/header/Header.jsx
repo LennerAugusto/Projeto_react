@@ -19,7 +19,7 @@ const Header = ({ isToogle }) => {
           </h3>
         </div>
         <div className="app-toggle">
-          <i id="sidebar_toggle">
+          <i id="_toggle">
             <FaIcons.FaBars />
           </i>
         </div>
