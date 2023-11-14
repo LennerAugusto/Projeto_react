@@ -18,6 +18,7 @@ import AlunoExcluir from './pages/aluno/Excluir';
 //Avaliação
 import AvaliacaoLista from './pages/avaliacao/Lista';
 import AvaliacaoIncluir from './pages/avaliacao/Incluir'
+import AvaliacaoExcluir from './pages/avaliacao/Excluir'
 //Disciplina 
 import DisciplinaLista from './pages/disciplina/Lista';
 import DisciplinaIncluir from './pages/disciplina/Incluir'

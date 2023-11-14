@@ -35,3 +35,11 @@ export const ExcluirAvaliacao  = async (id) => {
     });
   };
   
+  export const lerIdAvaliacao = async (id) => {
+    return http({
+      method: 'get',
+      url: `/avaliacao/alterar/${id}`,
+    }).then((response) => {
+      return response.data;
+    });
+  };
