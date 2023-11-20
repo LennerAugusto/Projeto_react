@@ -22,3 +22,12 @@ export const incluirCidade = async(cidade) => {
     )
 }
 
+export const excluirCidade = async(cidade) => {
+    return (
+        http({
+            method: 'post',
+            url: '/cidade/excluir',
+            data: cidade
+        }).then((response) => response.data)
+    )
+}

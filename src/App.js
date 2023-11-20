@@ -1,10 +1,12 @@
 import './App.css';
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Dashboard from './pages/Dashboard';
 //Cidade
 import CidadeIncluir from './pages/cidade/Incluir';
 import CidadeLista from './pages/cidade/Lista';
-import Dashboard from './pages/Dashboard';
+import CidadeExcluir from './pages/cidade/Excluir';
+import CidadeAlterar from './pages/cidade/Alterar';
 //Professor
 import ProfessorAlterar from './pages/professor/Alterar';
 import ExcluirProfessor from './pages/professor/Excluir';
@@ -42,6 +44,8 @@ function App() {
               <Route path="/professor/excluir/:id" element={<ExcluirProfessor />} />
               <Route path="/cidade/lista" element={<CidadeLista />} />
               <Route path="/cidade/incluir" element={<CidadeIncluir />} />
+              <Route path="/cidade/excluir/:id" element={<ExcluirCidade />} />
+              <Route path="/cidade/alterar/" element={<AlterarCidade />} />
               <Route path="/aluno/alterar" element={<AlunoAlterar />} />
               <Route path="/aluno/lista" element={<AlunoLista />} />
               <Route path="/aluno/excluir" element={<AlunoExcluir/>} />
