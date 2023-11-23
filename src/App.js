@@ -44,8 +44,8 @@ function App() {
               <Route path="/professor/excluir/:id" element={<ExcluirProfessor />} />
               <Route path="/cidade/lista" element={<CidadeLista />} />
               <Route path="/cidade/incluir" element={<CidadeIncluir />} />
-              <Route path="/cidade/excluir/:id" element={<ExcluirCidade />} />
-              <Route path="/cidade/alterar/" element={<AlterarCidade />} />
+              <Route path="/cidade/excluir/:id" element={<CidadeExcluir />} />
+              <Route path="/cidade/alterar/" element={<CidadeAlterar />} />
               <Route path="/aluno/alterar" element={<AlunoAlterar />} />
               <Route path="/aluno/lista" element={<AlunoLista />} />
               <Route path="/aluno/excluir" element={<AlunoExcluir/>} />
